@@ -9,7 +9,7 @@ const josefin = Josefin_Sans({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://SEU-DOMINIO.com.br"),
+  metadataBase: new URL("https://acauainiciativa.com.br"),
   title: "Acuã Iniciativa | Tecnologia, Marketing & Segurança",
   description:
     "Soluções integradas e orientadas a dados: tecnologia, marketing e segurança digital.",
