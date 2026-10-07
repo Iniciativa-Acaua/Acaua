@@ -28,13 +28,15 @@ export function About() {
           </div>
         </div>
 
-        <div className="mask-marca relative aspect-square w-full max-w-md justify-self-center">
+        <div className="relative overflow-hidden">
           <Image
-            src="/img/equipe.webp"
-            alt="Pessoas diversas sorrindo, representando a equipe multidisciplinar da Acuã"
-            fill
-            sizes="(min-width: 768px) 40vw, 90vw"
+            src="/quem-somos.svg"
+            alt="Ilustração de uma pessoa com um laptop, cercada por elementos de tecnologia e comunicação"
             className="object-cover"
+            width={500}
+            height={50}
+            sizes="(min-width: 768px) 50vw, 100vw"
+            priority
           />
         </div>
       </div>

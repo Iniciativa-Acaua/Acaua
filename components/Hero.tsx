@@ -7,9 +7,27 @@ const btn =
 
 export function Hero() {
   return (
-    <section className="bg-ink text-paper" aria-labelledby="hero-titulo">
-      <Container className="grid items-center gap-10 py-[clamp(3rem,8vw,6rem)] md:grid-cols-2 md:gap-16">
-        <div>
+    <section
+      aria-labelledby="hero-titulo"
+      className="relative isolate flex min-h-[calc(100svh-4rem)] items-end overflow-hidden bg-ink text-paper md:items-center"
+    >
+      <Image
+        src="/teste2.jpg"
+        alt="Acuã, ave de máscara preta e plumagem clara, em perfil"
+        fill
+        priority  
+        sizes="100vw"
+        className="-z-20 object-cover object-[72%_center] md:object-center"
+      />
+
+      {/* escurece para garantir a leitura do texto */}
+      <div
+        aria-hidden="true"
+        className="absolute inset-0 -z-10 bg-linear-to-t from-ink via-ink/70 to-ink/10 md:bg-linear-to-r md:from-ink md:via-ink/65 md:to-transparent"
+      />
+
+      <Container className="py-[clamp(3rem,8vw,6rem)]">
+        <div className="max-w-xl">
           <p className="mb-4 text-xs font-medium uppercase tracking-[0.3em] text-mute-dark">
             Acuã Iniciativa
           </p>
@@ -21,7 +39,7 @@ export function Hero() {
             Tecnologia, marketing &amp; segurança.
           </h1>
 
-          <p className="mt-6 max-w-[46ch] border-l-2 border-paper pl-4 text-lg text-mute-dark">
+          <p className="mt-6 max-w-[46ch] border-l-2 border-paper pl-4 text-lg text-paper/80">
             Soluções integradas e orientadas a dados. Unimos engenharia
             robusta, estratégias digitais de impacto e infraestrutura
             resiliente.
@@ -43,18 +61,6 @@ export function Hero() {
               Falar no WhatsApp
             </a>
           </div>
-        </div>
-
-        <div className="bg-paper">
-          <Image
-            src="/bird-hero.svg"
-            alt="Acuã, ave de plumagem preta e branca, em perfil"
-            width={800}
-            height={1000}
-            priority
-            sizes="(min-width: 768px) 50vw, 100vw"
-            className="aspect-[4/5] max-h-[70svh] w-full object-cover"
-          />
         </div>
       </Container>
     </section>
