@@ -39,13 +39,16 @@ export function Footer() {
           </div>
 
           <div className="flex flex-col gap-6 md:items-end">
+          <span className="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-800 ring-1 ring-paper">
             <Image
-              src="/logo.svg"
-              alt="Acuã Iniciativa"
-              width={120}
+              src="/Logo Acauã.svg"
+              alt=""
+              width={32}
               height={32}
-              className="h-8 w-auto"
+              priority
+              className="h-12 w-12 object-contain"
             />
+          </span>
 
             <ul className="flex gap-3">
               {SOCIAL.map(({ sigla, nome, href }) => (
