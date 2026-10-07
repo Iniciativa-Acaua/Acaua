@@ -13,7 +13,7 @@ export function Header() {
           aria-label="Acuã Iniciativa, voltar ao topo"
           className="flex items-center gap-3"
         >
-          <span className="flex h-14 w-14 items-center justify-center rounded-lg bg-gray-800 ring-2 ring-paper ">
+          <span className="flex h-12 w-12 items-center justify-center rounded-lg bg-gray-800 ring-2 ring-paper ">
             <Image
               src="/Logo Acauã.svg"
               alt=""
