@@ -1,6 +1,8 @@
 import type { Metadata, Viewport } from "next";
 import { Josefin_Sans } from "next/font/google";
 import "./globals.css";
+import {Header} from "@/components/Header";
+import {Footer} from "@/components/Footer";
 
 const josefin = Josefin_Sans({
   subsets: ["latin"],
@@ -38,7 +40,9 @@ export default function RootLayout({
         >
           Ir para o conteúdo
         </a>
+        <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );

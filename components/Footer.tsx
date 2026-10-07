@@ -40,7 +40,7 @@ export function Footer() {
 
           <div className="flex flex-col gap-6 md:items-end">
             <Image
-              src="/img/logo.svg"
+              src="/logo.svg"
               alt="Acuã Iniciativa"
               width={120}
               height={32}

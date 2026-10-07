@@ -8,7 +8,7 @@ export function Header() {
   return (
     <header id="topo" className="sticky top-0 z-40 bg-ink text-paper">
       <Container className="flex h-16 items-center justify-between">
-        <Link href="#topo" aria-label="Acuã Iniciativa, voltar ao topo">
+        <Link href="/" aria-label="Acuã Iniciativa, voltar ao topo">
           <Image
             src="/logo.svg"
             alt=""

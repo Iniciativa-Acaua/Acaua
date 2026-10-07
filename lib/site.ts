@@ -1,8 +1,8 @@
 export const NAV = [
-  { href: "#sobre", label: "Sobre" },
-  { href: "#projetos", label: "Projetos" },
-  { href: "#faq", label: "FAQ" },
-  { href: "#contato", label: "Contato" },
+  { href: "/#sobre", label: "Sobre" },
+  { href: "/portfolio", label: "Portfólio" },
+  { href: "/#faq", label: "FAQ" },
+  { href: "/contato", label: "Contato" },
 ] as const;
 
 // troque pelo número real, com DDI+DDD, só dígitos
@@ -68,6 +68,49 @@ export const FAQ = [
     pergunta: "Como solicitar um orçamento?",
     resposta:
       "Fale com a gente pelo WhatsApp ou pelo e-mail de contato, no rodapé desta página. Entendemos sua necessidade e retornamos com uma proposta clara, com prazos e valores.",
+  },
+] as const;
+
+export const CANAIS = [
+  {
+    id: "whatsapp",
+    sigla: "WA",
+    titulo: "WhatsApp",
+    destaque: CONTATO.whatsapp,
+    descricao: "O jeito mais rápido de falar com a equipe.",
+    acao: "Conversar agora",
+    href: WHATSAPP_URL,
+    externo: true,
+  },
+  {
+    id: "email",
+    sigla: "@",
+    titulo: "E-mail",
+    destaque: CONTATO.email,
+    descricao: "Para propostas, parcerias e mensagens mais detalhadas.",
+    acao: "Enviar e-mail",
+    href: `mailto:${CONTATO.email}`,
+    externo: false,
+  },
+  {
+    id: "instagram",
+    sigla: "IG",
+    titulo: "Instagram",
+    destaque: "",
+    descricao: "Acompanhe os projetos e os bastidores da Acuã.",
+    acao: "Seguir no Instagram",
+    href: SOCIAL[0].href,
+    externo: true,
+  },
+  {
+    id: "linkedin",
+    sigla: "IN",
+    titulo: "LinkedIn",
+    destaque: "",
+    descricao: "Conexões profissionais e novidades da iniciativa.",
+    acao: "Ver no LinkedIn",
+    href: SOCIAL[1].href,
+    externo: true,
   },
 ] as const;
 
