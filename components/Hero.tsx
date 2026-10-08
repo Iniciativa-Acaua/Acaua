@@ -14,7 +14,7 @@ export function Hero() {
     >
       <Image
         src="/teste2.jpg"
-        alt="Acuã, ave de máscara preta e plumagem clara, em perfil"
+        alt="Acauã, ave de máscara preta e plumagem clara, em perfil"
         fill
         priority  
         sizes="100vw"
@@ -30,7 +30,7 @@ export function Hero() {
       <Container className="py-[clamp(3rem,8vw,6rem)]">
         <div className="max-w-xl">
           <p className="mb-4 text-xs font-medium uppercase tracking-[0.3em] text-mute-dark">
-            Acuã Iniciativa
+            Acauã Iniciativa
           </p>
 
           <h1
