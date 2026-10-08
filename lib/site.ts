@@ -5,9 +5,9 @@ export const NAV = [
   { href: "/contato", label: "Contato" },
 ] as const;
 
-// troque pelo número real, com DDI+DDD, só dígitos
 export const CONTATO = {
-  email: "acua.iniciativa@atendimento.com.br",
+  // enquanto este e-mail não existir, use: "acua.iniciativa@atendimento.com.br"
+  email: "contato@acauainiciativa.com.br",
   whatsapp: "(84) 9 9989-3481",
   whatsappDigits: "5584999893481", // DDI + DDD + número, só dígitos
 };
@@ -16,11 +16,15 @@ export const WHATSAPP_URL = `https://wa.me/${CONTATO.whatsappDigits}?text=${enco
   "Olá! Gostaria de um orçamento."
 )}`;
 
+// Preencha quando os perfis existirem. Vazio = não aparece no site.
+const INSTAGRAM_URL = ""; // ex.: "https://instagram.com/acauainiciativa"
+const LINKEDIN_URL = ""; // ex.: "https://linkedin.com/company/acauainiciativa"
+
 export const SOCIAL = [
-  { sigla: "IG", nome: "Instagram", href: "https://instagram.com/SEU_PERFIL" },
-  { sigla: "IN", nome: "LinkedIn", href: "https://linkedin.com/company/SEU_PERFIL" },
+  { sigla: "IG", nome: "Instagram", href: INSTAGRAM_URL },
+  { sigla: "IN", nome: "LinkedIn", href: LINKEDIN_URL },
   { sigla: "WA", nome: "WhatsApp", href: WHATSAPP_URL },
-] as const;
+].filter((s) => s.href);
 
 export type Frente = {
   icon: "triangle" | "circle" | "square";
@@ -35,21 +39,33 @@ export const FRENTES: Frente[] = [
     titulo: "Tecnologia & Engenharia",
     descricao:
       "Desenvolvimento de software sob medida, arquitetura de sistemas escaláveis e engenharia de dados orientada a performance.",
-    projeto: { nome: "Projeto Mais Sabor", detalhe: "Cardápio online" },
+    projeto: {
+      nome: "Projeto Mais Sabor",
+      detalhe: "Cardápio online",
+      href: "/portfolio",
+    },
   },
   {
     icon: "circle",
     titulo: "Marketing & Social Media",
     descricao:
       "Estratégias de posicionamento digital, branding com propósito e gestão de tráfego baseado em inteligência de dados.",
-    projeto: { nome: "Rebranding Apex", detalhe: "Identidade e conversão B2B" },
+    projeto: {
+      nome: "Rebranding Apex",
+      detalhe: "Identidade e conversão B2B",
+      href: "/portfolio",
+    },
   },
   {
     icon: "square",
     titulo: "Cibersegurança & Infra",
     descricao:
       "Auditoria corporativa, testes de intrusão (pentest) e implementação de infraestrutura em nuvem segura.",
-    projeto: { nome: "Operação Aegis", detalhe: "Pentest e adequação LGPD" },
+    projeto: {
+      nome: "Operação Aegis",
+      detalhe: "Pentest e adequação LGPD",
+      href: "/portfolio",
+    },
   },
 ];
 
@@ -67,7 +83,7 @@ export const FAQ = [
   {
     pergunta: "Como solicitar um orçamento?",
     resposta:
-      "Fale com a gente pelo WhatsApp ou pelo e-mail de contato, no rodapé desta página. Entendemos sua necessidade e retornamos com uma proposta clara, com prazos e valores.",
+      "Fale com a gente pelo WhatsApp ou pela página de contato. Entendemos sua necessidade e retornamos com uma proposta clara, com prazos e valores.",
   },
 ] as const;
 
@@ -92,25 +108,32 @@ export const CANAIS = [
     href: `mailto:${CONTATO.email}`,
     externo: false,
   },
-  {
-    id: "instagram",
-    sigla: "IG",
-    titulo: "Instagram",
-    destaque: "",
-    descricao: "Acompanhe os projetos e os bastidores da Acuã.",
-    acao: "Seguir no Instagram",
-    href: SOCIAL[0].href,
-    externo: true,
-  },
-  {
-    id: "linkedin",
-    sigla: "IN",
-    titulo: "LinkedIn",
-    destaque: "",
-    descricao: "Conexões profissionais e novidades da iniciativa.",
-    acao: "Ver no LinkedIn",
-    href: SOCIAL[1].href,
-    externo: true,
-  },
-] as const;
-
+  ...(INSTAGRAM_URL
+    ? [
+        {
+          id: "instagram",
+          sigla: "IG",
+          titulo: "Instagram",
+          destaque: "",
+          descricao: "Acompanhe os projetos e os bastidores da Acuã.",
+          acao: "Seguir no Instagram",
+          href: INSTAGRAM_URL,
+          externo: true,
+        },
+      ]
+    : []),
+  ...(LINKEDIN_URL
+    ? [
+        {
+          id: "linkedin",
+          sigla: "IN",
+          titulo: "LinkedIn",
+          destaque: "",
+          descricao: "Conexões profissionais e novidades da iniciativa.",
+          acao: "Ver no LinkedIn",
+          href: LINKEDIN_URL,
+          externo: true,
+        },
+      ]
+    : []),
+];

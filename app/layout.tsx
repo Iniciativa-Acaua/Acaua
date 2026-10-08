@@ -20,8 +20,9 @@ export const metadata: Metadata = {
     description: "Tecnologia, marketing e segurança digital.",
     type: "website",
     locale: "pt_BR",
-    images: ["/img/og.jpg"], // 1200×630
+    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "Acuã Iniciativa" }],
   },
+  twitter: { card: "summary_large_image", images: ["/og.jpg"] },
 };
 
 export const viewport: Viewport = { themeColor: "#000000" };

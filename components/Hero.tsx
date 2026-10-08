@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Container } from "./Container";
 import { WHATSAPP_URL } from "@/lib/site";
+import Link from "next/link";
 
 const btn =
   "inline-block px-6 py-3 text-sm font-medium uppercase tracking-wider transition-colors";
@@ -46,17 +47,17 @@ export function Hero() {
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
-            <a
-              href="#projetos"
-              className={`${btn} bg-paper text-ink hover:bg-mute-dark`}
+            <Link
+              href="/portfolio"
+              className={`${btn} bg-paper text-ink hover:bg-mute-dark rounded-2xl`}
             >
               Conheça nossos projetos
-            </a>
+            </Link>
             <a
               href={WHATSAPP_URL}
               target="_blank"
               rel="noopener noreferrer"
-              className={`${btn} border border-paper hover:bg-paper hover:text-ink`}
+              className={`${btn} border border-paper hover:bg-paper hover:text-ink rounded-2xl`}
             >
               Falar no WhatsApp
             </a>
