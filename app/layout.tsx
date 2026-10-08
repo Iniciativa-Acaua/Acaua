@@ -12,15 +12,15 @@ const josefin = Josefin_Sans({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://acauainiciativa.com.br"),
-  title: "Acuã Iniciativa | Tecnologia, Marketing & Segurança",
+  title: "Acauã Iniciativa | Tecnologia, Marketing & Segurança",
   description:
     "Soluções integradas e orientadas a dados: tecnologia, marketing e segurança digital.",
   openGraph: {
-    title: "Acuã Iniciativa",
+    title: "Acauã Iniciativa",
     description: "Tecnologia, marketing e segurança digital.",
     type: "website",
     locale: "pt_BR",
-    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "Acuã Iniciativa" }],
+    images: [{ url: "/og.jpg", width: 1200, height: 630, alt: "Acauã Iniciativa" }],
   },
   twitter: { card: "summary_large_image", images: ["/og.jpg"] },
 };
