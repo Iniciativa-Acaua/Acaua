@@ -3,10 +3,11 @@ import { Section } from "@/components/Section";
 import { CANAIS } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Contato | Acuã Iniciativa",
+  title: "Contato | Acauã Iniciativa",
   description:
-    "Fale com a equipe da Acuã Iniciativa por WhatsApp, e-mail ou redes sociais.",
+    "Fale com a equipe da Acauã Iniciativa por WhatsApp, e-mail ou redes sociais.",
 };
+
 
 export default function ContatoPage() {
   return (

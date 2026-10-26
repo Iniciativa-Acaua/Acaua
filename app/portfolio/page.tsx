@@ -4,9 +4,9 @@ import { ProjetoCard } from "@/components/ProjetoCard";
 import { PROJETOS } from "@/lib/projetos";
 
 export const metadata: Metadata = {
-  title: "Portfólio | Acuã Iniciativa",
+  title: "Portfólio | Acauã Iniciativa",
   description:
-    "Projetos de tecnologia, marketing e segurança desenvolvidos pela Acuã Iniciativa.",
+    "Projetos de tecnologia, marketing e segurança desenvolvidos pela Acauã Iniciativa.",
 };
 
 export default function PortfolioPage() {

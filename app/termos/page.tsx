@@ -3,8 +3,8 @@ import { LegalPage } from "@/components/LegalPage";
 import { CONTATO } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Termos de Uso | Acuã Iniciativa",
-  description: "Condições de uso do site da Acuã Iniciativa.",
+  title: "Termos de Uso | Acauã Iniciativa",
+  description: "Condições de uso do site da Acauã Iniciativa.",
 };
 
 export default function TermosPage() {
@@ -18,7 +18,7 @@ export default function TermosPage() {
 
       <h2>2. Sobre o site</h2>
       <p>
-        O site apresenta a Acuã Iniciativa e seus serviços de tecnologia,
+        O site apresenta a Acauã Iniciativa e seus serviços de tecnologia,
         marketing e segurança. O conteúdo tem caráter informativo e não
         constitui proposta comercial vinculante. Prazos e valores são definidos
         apenas em orçamento ou contrato firmado entre as partes.
@@ -34,7 +34,7 @@ export default function TermosPage() {
       <h2>4. Propriedade intelectual</h2>
       <p>
         A marca, o logotipo, os textos, as ilustrações e o código deste site
-        pertencem à Acuã Iniciativa ou a terceiros que autorizaram o uso. É
+        pertencem à Acauã Iniciativa ou a terceiros que autorizaram o uso. É
         proibida a reprodução sem autorização prévia. Os projetos exibidos no
         portfólio pertencem aos respectivos clientes.
       </p>

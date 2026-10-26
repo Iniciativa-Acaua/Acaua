@@ -10,7 +10,7 @@ export function Header() {
       <Container className="flex h-18 items-center justify-between">
         <Link
           href="/"
-          aria-label="Acuã Iniciativa, voltar ao topo"
+          aria-label="Acauã Iniciativa, voltar ao topo"
           className="flex items-center gap-3"
         >
           <span className="flex h-12 w-12 items-center justify-center rounded-lg bg-gray-800 ring-2 ring-paper ">
