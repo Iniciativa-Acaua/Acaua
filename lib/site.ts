@@ -6,7 +6,7 @@ export const NAV = [
 ] as const;
 
 export const CONTATO = {
-  // enquanto este e-mail não existir, use: "acua.iniciativa@atendimento.com.br"
+  // enquanto este e-mail não existir, use: "acaua.iniciativa@atendimento.com.br"
   email: "contato@acauainiciativa.com.br",
   whatsapp: "(84) 9 9989-3481",
   whatsappDigits: "5584999893481", // DDI + DDD + número, só dígitos
@@ -71,7 +71,7 @@ export const FRENTES: Frente[] = [
 
 export const FAQ = [
   {
-    pergunta: "Como a Acuã integra suas 3 frentes?",
+    pergunta: "Como a Acauã integra suas 3 frentes?",
     resposta:
       "Trabalhamos com uma equipe multidisciplinar que compartilha o mesmo diagnóstico e as mesmas métricas. Um site, por exemplo, nasce com engenharia sólida, estratégia de comunicação e segurança desde o primeiro dia, sem retrabalho entre áreas.",
   },
@@ -115,7 +115,7 @@ export const CANAIS = [
           sigla: "IG",
           titulo: "Instagram",
           destaque: "",
-          descricao: "Acompanhe os projetos e os bastidores da Acuã.",
+          descricao: "Acompanhe os projetos e os bastidores da Acauã.",
           acao: "Seguir no Instagram",
           href: INSTAGRAM_URL,
           externo: true,
