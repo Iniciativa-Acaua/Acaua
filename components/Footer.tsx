@@ -69,7 +69,7 @@ export function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col gap-3 border-t border-paper/15 pt-6 text-sm text-mute-dark sm:flex-row sm:justify-between">
-          <p>© {new Date().getFullYear()} Acuã Iniciativa. Todos os direitos reservados.</p>
+          <p>© {new Date().getFullYear()} Acauã Iniciativa. Todos os direitos reservados.</p>
           <p className="flex gap-6">
             <Link href="/privacidade" className="hover:text-paper">
               Política de Privacidade

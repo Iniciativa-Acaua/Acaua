@@ -3,8 +3,8 @@ import { LegalPage } from "@/components/LegalPage";
 import { CONTATO } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Política de Privacidade | Acuã Iniciativa",
-  description: "Como a Acuã Iniciativa trata os dados pessoais, conforme a LGPD.",
+  title: "Política de Privacidade | Acauã Iniciativa",
+  description: "Como a Acauã Iniciativa trata os dados pessoais, conforme a LGPD.",
 };
 
 export default function PrivacidadePage() {
@@ -12,7 +12,7 @@ export default function PrivacidadePage() {
     <LegalPage titulo="Política de Privacidade" atualizado="7 de outubro de 2026">
       <h2>1. Quem somos</h2>
       <p>
-        Este site é operado pela Acuã Iniciativa ([RAZÃO SOCIAL], CNPJ [CNPJ]),
+        Este site é operado pela Acauã Iniciativa ([RAZÃO SOCIAL], CNPJ [CNPJ]),
         responsável pelo tratamento dos dados pessoais descritos nesta política,
         nos termos da Lei Geral de Proteção de Dados (Lei nº 13.709/2018, a
         LGPD).

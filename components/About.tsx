@@ -15,8 +15,8 @@ export function About() {
 
           <div className="mt-8 max-w-[52ch] space-y-6 text-lg text-mute-light">
             <p>
-              Inspirada pela visão aguçada e adaptabilidade do pássaro Acuã, a
-              Acuã Iniciativa nasce para resolver problemas complexos do
+              Inspirada pela visão aguçada e adaptabilidade do pássaro Acauã, a
+              Acauã Iniciativa nasce para resolver problemas complexos do
               ecossistema digital.
             </p>
             <p>
