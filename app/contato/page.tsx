@@ -8,6 +8,7 @@ export const metadata: Metadata = {
     "Fale com a equipe da Acauã Iniciativa por WhatsApp, e-mail ou redes sociais.",
 };
 
+
 export default function ContatoPage() {
   return (
     <main id="conteudo">
