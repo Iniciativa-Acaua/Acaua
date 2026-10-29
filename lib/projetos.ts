@@ -23,18 +23,4 @@ export const PROJETOS: Projeto[] = [
     tecnologias: ["Next.js", "PostgreSQL", "Drizzle ORM", "Tailwind", "Mercado Pago"],
 
   },
-  {
-    slug: "apex",
-    nome: "Rebranding Apex",
-    url: "https://cardapio-do-dia-xi.vercel.app/",
-    categoria: "Marketing",
-    descricao: "Identidade visual e conversão B2B.",
-  },
-  {
-    slug: "aegis",
-    nome: "Operação Aegis",
-    url: "https://cardapio-do-dia-xi.vercel.app/",
-    categoria: "Segurança",
-    descricao: "Pentest e adequação à LGPD.",
-  },
 ];
