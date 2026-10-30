@@ -64,8 +64,3 @@
 .marquee:hover .marquee-faixa {
   animation-play-state: paused;
 }
-
-@media (prefers-reduced-motion: reduce) {
-  .marquee { overflow-x: auto; -webkit-mask-image: none; mask-image: none; }
-  .marquee-faixa { animation: none; }
-}
