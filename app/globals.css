@@ -42,3 +42,30 @@
   mask-repeat: no-repeat;
   mask-position: center;
 }
+
+/* Carrossel infinito de logos */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+
+.marquee {
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 12%, #000 88%, transparent);
+          mask-image: linear-gradient(to right, transparent, #000 12%, #000 88%, transparent);
+}
+
+.marquee-faixa {
+  display: flex;
+  width: max-content;
+  animation: marquee var(--duracao, 40s) linear infinite;
+}
+
+.marquee:hover .marquee-faixa {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee { overflow-x: auto; -webkit-mask-image: none; mask-image: none; }
+  .marquee-faixa { animation: none; }
+}
