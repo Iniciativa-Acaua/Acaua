@@ -8,8 +8,8 @@ export const NAV = [
 export const CONTATO = {
   // enquanto este e-mail não existir, use: "acaua.iniciativa@atendimento.com.br"
   email: "contato@acauainiciativa.com.br",
-  whatsapp: "(84) 9 9989-3481",
-  whatsappDigits: "5584999893481", // DDI + DDD + número, só dígitos
+  whatsapp: "(84) 9 9471-0601",
+  whatsappDigits: "5584994710601", // DDI + DDD + número, só dígitos
 };
 
 export const WHATSAPP_URL = `https://wa.me/${CONTATO.whatsappDigits}?text=${encodeURIComponent(

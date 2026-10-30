@@ -3,6 +3,7 @@ import { About } from "@/components/About";
 import { Services } from "@/components/Services";
 import { Faq } from "@/components/Faq";
 import ClientesCarrossel from "@/components/ClientesCarrossel";
+import BannerPalavras from "@/components/BannerPalavras";
 import Reveal from "@/components/Reveal";
 
 export default function Home() {
@@ -10,6 +11,9 @@ export default function Home() {
     <>
       <main id="conteudo">
         <Hero />
+        <Reveal>
+          <BannerPalavras />
+        </Reveal>
         <About />
         <Reveal>
           <ClientesCarrossel />
