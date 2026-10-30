@@ -3,17 +3,18 @@ import Link from "next/link";
 import { Container } from "./Container";
 import { NAV } from "@/lib/site";
 import { MobileMenu } from "./MobileMenu";
+import { HeaderScroll } from "./HeaderScroll";
 
 export function Header() {
   return (
-    <header id="topo" className="sticky top-0 z-40 bg-ink text-paper">
-      <Container className="flex h-18 items-center justify-between">
+    <HeaderScroll>
+      <Container className="flex h-18 items-center justify-between transition-[height] duration-300 group-data-[solido=true]:h-16">
         <Link
           href="/"
           aria-label="Acauã Iniciativa, voltar ao topo"
           className="flex items-center gap-3"
         >
-          <span className="flex h-12 w-12 items-center justify-center rounded-lg bg-gray-800 ring-2 ring-paper ">
+          <span className="flex h-12 w-12 items-center justify-center rounded-lg bg-gray-800 ring-2 ring-paper transition-colors duration-300 group-data-[solido=true]:ring-gray-800">
             <Image
               src="/Logo Acauã.svg"
               alt=""
@@ -28,19 +29,19 @@ export function Header() {
             <span className="block font-heading text-lg font-semibold tracking-wide">
               ACAUÃ
             </span>
-            <span className="mt-1 block text-[10px] uppercase tracking-[0.3em] text-mute-dark">
+            <span className="mt-1 block text-[10px] uppercase tracking-[0.3em] text-mute-dark transition-colors duration-300 group-data-[solido=true]:text-mute">
               Iniciativa
             </span>
           </span>
         </Link>
 
-                <nav aria-label="Principal" className="hidden sm:block">
+        <nav aria-label="Principal" className="hidden sm:block">
           <ul className="flex gap-8 text-sm font-medium uppercase tracking-wider">
             {NAV.map(({ href, label }) => (
               <li key={href}>
                 <Link
                   href={href}
-                  className="underline-offset-8 transition-colors hover:text-mute-dark hover:underline"
+                  className="underline-offset-8 transition-colors hover:text-mute-dark hover:underline group-data-[solido=true]:hover:text-mute"
                 >
                   {label}
                 </Link>
@@ -51,6 +52,6 @@ export function Header() {
 
         <MobileMenu />
       </Container>
-    </header>
+    </HeaderScroll>
   );
 }
