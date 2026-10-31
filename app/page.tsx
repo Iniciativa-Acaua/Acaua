@@ -16,6 +16,7 @@ export default function Home() {
         <Reveal>
           <BannerPalavras />
         </Reveal>
+        <CtaBanner />
         <About />
         <Reveal>
           <ClientesCarrossel />
@@ -27,8 +28,7 @@ export default function Home() {
           alt="Tela inicial da loja TP"
           href="https://cardapio-do-dia-xi.vercel.app"
         />
-        <Services />
-        <CtaBanner />
+        
         <Faq />
       </main>
     </>
