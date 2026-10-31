@@ -21,10 +21,10 @@ export default function Home() {
         </Reveal>
         <SolucaoDestaque
           titulo="Solução destaque"
-          descricao="E-commerce de streetwear com..."
-          imagem="/public/+sabor.jpg"
+          descricao="E-commerce da +Sabor"
+          imagem="/+sabor.jpg"
           alt="Tela inicial da loja TP"
-          href="https://..."
+          href="https://cardapio-do-dia-xi.vercel.app"
         />
         <Services />
         <Faq />

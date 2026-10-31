@@ -13,7 +13,7 @@ type Props = {
 export function SolucaoDestaque({
   titulo = "Solução destaque",
   descricao = "Um cardápio digital que abrange as mais sofisticadas funções, incluindo checkout funcional!",
-  imagem = "/public/+sabor.jpg",
+  imagem = "/+sabor.jpg",
   alt = "Tela inicial do cardápio digital +Sabor",
   href = "https://cardapio-do-dia-xi.vercel.app",
 }: Props) {
