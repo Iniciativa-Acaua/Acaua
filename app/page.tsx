@@ -5,6 +5,7 @@ import { Faq } from "@/components/Faq";
 import ClientesCarrossel from "@/components/ClientesCarrossel";
 import BannerPalavras from "@/components/BannerPalavras";
 import Reveal from "@/components/Reveal";
+import { SolucaoDestaque } from "@/components/SolucaoDestaque";
 
 export default function Home() {
   return (
@@ -18,6 +19,13 @@ export default function Home() {
         <Reveal>
           <ClientesCarrossel />
         </Reveal>
+        <SolucaoDestaque
+          titulo="Solução destaque"
+          descricao="E-commerce de streetwear com..."
+          imagem="/public/+sabor.jpg"
+          alt="Tela inicial da loja TP"
+          href="https://..."
+        />
         <Services />
         <Faq />
       </main>
