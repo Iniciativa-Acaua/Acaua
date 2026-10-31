@@ -6,6 +6,7 @@ import ClientesCarrossel from "@/components/ClientesCarrossel";
 import BannerPalavras from "@/components/BannerPalavras";
 import Reveal from "@/components/Reveal";
 import { SolucaoDestaque } from "@/components/SolucaoDestaque";
+import { CtaBanner } from "@/components/CtaBanner";
 
 export default function Home() {
   return (
@@ -27,6 +28,7 @@ export default function Home() {
           href="https://cardapio-do-dia-xi.vercel.app"
         />
         <Services />
+        <CtaBanner />
         <Faq />
       </main>
     </>

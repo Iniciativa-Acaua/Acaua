@@ -64,3 +64,29 @@
 .marquee:hover .marquee-faixa {
   animation-play-state: paused;
 }
+
+/* Banner CTA */
+@keyframes flutuar-a {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50%      { transform: translate(40px, -30px) scale(1.15); }
+}
+@keyframes flutuar-b {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50%      { transform: translate(-50px, 30px) scale(1.2); }
+}
+@keyframes brilho {
+  from { background-position: 0% 50%; }
+  to   { background-position: 200% 50%; }
+}
+
+.blob-a { animation: flutuar-a 12s ease-in-out infinite; }
+.blob-b { animation: flutuar-b 15s ease-in-out infinite; }
+
+.texto-brilho {
+  background-image: linear-gradient(90deg, #f97316, #fdba74, #f97316);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+          background-clip: text;
+  color: transparent;
+  animation: brilho 4s linear infinite;
+}
