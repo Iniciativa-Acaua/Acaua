@@ -41,7 +41,7 @@ export function Footer() {
           <div className="flex flex-col gap-6 md:items-end">
           <span className="flex h-11 w-11 items-center justify-center">
             <Image
-              src="/AcauaPassaro.png"
+              src="/icone_acaua(v2).svg"
               alt=""
               width={32}
               height={32}
