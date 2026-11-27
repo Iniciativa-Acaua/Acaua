@@ -37,14 +37,14 @@ export default function BannerPalavras() {
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 md:grid-cols-2">
         {/* Texto */}
         <div>
-          <p className="text-sm font-semibold uppercase tracking-widest text-">
+          <p className="text-sm font-semibold uppercase tracking-widest text-brand-light">
             O que fazemos
           </p>
           <h2
             id="titulo-palavras"
             className="mt-3 text-3xl font-extrabold tracking-tight md:text-5xl"
           >
-            Soluções completas para <span className="text-orange-500">a sua iniciativa</span>
+            Soluções completas para <span className="text-brand-light">a sua iniciativa</span>
           </h2>
           <p className="mt-5 max-w-md text-neutral-400">
             Da ideia ao site no ar: unimos tecnologia, marketing e segurança
@@ -87,7 +87,7 @@ export default function BannerPalavras() {
                   transformOrigin: "left center",
                   opacity: !dentro ? 0 : d === 0 ? 1 : 0.35 - distancia * 0.06,
                   filter: d === 0 ? "none" : `blur(${distancia * 1.5}px)`,
-                  color: d === 0 ? "#f97316" : "#ffffff",
+                  color: d === 0 ? "#4a4aff" : "#ffffff",
                 }}
               >
                 {palavra}

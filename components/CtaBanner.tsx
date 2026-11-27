@@ -11,11 +11,11 @@ export function CtaBanner() {
             {/* Luzes animadas ao fundo */}
             <div
               aria-hidden="true"
-              className="blob-a pointer-events-none absolute -left-20 -top-24 h-72 w-72 rounded-full bg-blue-500/30 blur-3xl"
+              className="blob-a pointer-events-none absolute -left-20 -top-24 h-72 w-72 rounded-full bg-brand/40 blur-3xl"
             />
             <div
               aria-hidden="true"
-              className="blob-b pointer-events-none absolute -bottom-28 -right-16 h-80 w-80 rounded-full bg-brand/20 blur-3xl"
+              className="blob-b pointer-events-none absolute -bottom-28 -right-16 h-80 w-80 rounded-full bg-brand-light/25 blur-3xl"
             />
 
             <div className="relative z-10">
@@ -39,7 +39,7 @@ export function CtaBanner() {
               <div className="mt-9 flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <Link
                   href="/contato"
-                  className="group inline-flex items-center gap-2 rounded-full bg-orange-500 px-8 py-3.5 font-bold text-white shadow-lg shadow-orange-500/30 transition hover:bg-orange-600 hover:shadow-xl"
+                  className="group inline-flex items-center gap-2 rounded-full bg-brand px-8 py-3.5 font-bold text-white shadow-lg shadow-brand/40 transition hover:bg-brand-dark hover:shadow-xl"
                 >
                   Fale com a gente
                   <span

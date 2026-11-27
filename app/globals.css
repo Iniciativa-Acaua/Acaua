@@ -86,7 +86,7 @@
 .blob-b { animation: flutuar-b 15s ease-in-out infinite; }
 
 .texto-brilho {
-  background-image: linear-gradient(90deg, #f97316, #fdba74, #f97316);
+  background-image: linear-gradient(90deg, #4a4aff, #9a9aff, #4a4aff);
   background-size: 200% auto;
   -webkit-background-clip: text;
           background-clip: text;

@@ -54,7 +54,7 @@ export default function ClientesCarrossel() {
           id="titulo-clientes"
           className="mt-3 text-3xl font-extrabold tracking-tight md:text-4xl"
         >
-          Empresas com as quais <span className="text-orange-500">já trabalhamos</span>
+          Empresas com as quais <span className="text-brand">já trabalhamos</span>
         </h2>
       </div>
 
