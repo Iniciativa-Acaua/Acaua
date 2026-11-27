@@ -82,6 +82,11 @@
   to   { background-position: 200% 50%; }
 }
 
+/* Logo do header: clara no topo, escura quando o header fica branco */
+.logo-header-escuro { display: none; }
+header[data-solido="true"] .logo-header-claro { display: none; }
+header[data-solido="true"] .logo-header-escuro { display: block; }
+
 .blob-a { animation: flutuar-a 12s ease-in-out infinite; }
 .blob-b { animation: flutuar-b 15s ease-in-out infinite; }
 

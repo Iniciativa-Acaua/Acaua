@@ -9,31 +9,28 @@ export function Header() {
   return (
     <HeaderScroll>
       <Container className="flex h-18 items-center justify-between transition-[height] duration-300 group-data-[solido=true]:h-16">
-        <Link
-          href="/"
-          aria-label="Acauã Iniciativa, voltar ao topo"
-          className="flex items-center gap-3"
-        >
-          <span className="flex h-12 w-12 items-center justify-center transition-colors duration-300 group-data-[solido=true]:ring-gray-800">
-            <Image
-              src="/AcauaPassaro.png"
-              alt=""
-              width={32}
-              height={32}
-              priority
-              className="h-12 w-12 object-contain"
-            />
-          </span>
-
-          <span className="leading-none">
-            <span className="block font-heading text-lg font-semibold tracking-wide">
-              ACAUÃ
-            </span>
-            <span className="mt-1 block text-[10px] uppercase tracking-[0.3em] text-mute-dark transition-colors duration-300 group-data-[solido=true]:text-mute">
-              Iniciativa
-            </span>
-          </span>
-        </Link>
+      <Link
+        href="/"
+        aria-label="Acauã Iniciativa, voltar ao topo"
+        className="flex items-center"
+      >
+        <Image
+          src="/logo-acaua-claro.png"
+          alt="Acauã Iniciativa"
+          width={1593}
+          height={435}
+          priority
+          className="logo-header-claro h-12 w-auto sm:h-14"
+        />
+        <Image
+          src="/logo-acaua-escuro.png"
+          alt=""
+          width={1593}
+          height={435}
+          priority
+          className="logo-header-escuro h-11 w-auto sm:h-12"
+        />
+      </Link>
 
         <nav aria-label="Principal" className="hidden sm:block">
           <ul className="flex gap-8 text-sm font-medium uppercase tracking-wider">
