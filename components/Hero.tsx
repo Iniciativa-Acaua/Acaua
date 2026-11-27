@@ -35,7 +35,7 @@ export function Hero() {
 
           <h1
             id="hero-titulo"
-            className="text-[clamp(2.25rem,6vw,4.5rem)]"
+            className="text-[clamp(1.75rem,4.5vw,3.5rem)]"
           >
             TECNOLOGIA QUE SIMPLIFICA. SOLUÇÕES QUE FAZEM SUA EMPRESA AVANÇAR.
           </h1>
