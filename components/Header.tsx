@@ -14,9 +14,9 @@ export function Header() {
           aria-label="Acauã Iniciativa, voltar ao topo"
           className="flex items-center gap-3"
         >
-          <span className="flex h-12 w-12 items-center justify-center rounded-lg bg-gray-800 ring-2 ring-paper transition-colors duration-300 group-data-[solido=true]:ring-gray-800">
+          <span className="flex h-12 w-12 items-center justify-center transition-colors duration-300 group-data-[solido=true]:ring-gray-800">
             <Image
-              src="/NovaLogo.svg"
+              src="/AcauaPassaro.png"
               alt=""
               width={32}
               height={32}

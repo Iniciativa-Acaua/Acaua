@@ -37,7 +37,7 @@ export default function BannerPalavras() {
       <div className="mx-auto grid max-w-6xl items-center gap-12 px-6 md:grid-cols-2">
         {/* Texto */}
         <div>
-          <p className="text-sm font-semibold uppercase tracking-widest text-orange-500">
+          <p className="text-sm font-semibold uppercase tracking-widest text-">
             O que fazemos
           </p>
           <h2

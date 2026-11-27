@@ -11,11 +11,11 @@ export function CtaBanner() {
             {/* Luzes animadas ao fundo */}
             <div
               aria-hidden="true"
-              className="blob-a pointer-events-none absolute -left-20 -top-24 h-72 w-72 rounded-full bg-orange-500/30 blur-3xl"
+              className="blob-a pointer-events-none absolute -left-20 -top-24 h-72 w-72 rounded-full bg-blue-500/30 blur-3xl"
             />
             <div
               aria-hidden="true"
-              className="blob-b pointer-events-none absolute -bottom-28 -right-16 h-80 w-80 rounded-full bg-orange-400/20 blur-3xl"
+              className="blob-b pointer-events-none absolute -bottom-28 -right-16 h-80 w-80 rounded-full bg-brand/20 blur-3xl"
             />
 
             <div className="relative z-10">

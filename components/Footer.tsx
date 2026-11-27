@@ -39,9 +39,9 @@ export function Footer() {
           </div>
 
           <div className="flex flex-col gap-6 md:items-end">
-          <span className="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-800 ring-1 ring-paper">
+          <span className="flex h-11 w-11 items-center justify-center">
             <Image
-              src="/NovaLogo.svg"
+              src="/AcauaPassaro.png"
               alt=""
               width={32}
               height={32}
