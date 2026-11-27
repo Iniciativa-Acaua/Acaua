@@ -16,7 +16,7 @@ export function Header() {
         >
           <span className="flex h-12 w-12 items-center justify-center rounded-lg bg-gray-800 ring-2 ring-paper transition-colors duration-300 group-data-[solido=true]:ring-gray-800">
             <Image
-              src="/Logo Acauã.svg"
+              src="/NovaLogo.svg"
               alt=""
               width={32}
               height={32}

@@ -41,7 +41,7 @@ export function Footer() {
           <div className="flex flex-col gap-6 md:items-end">
           <span className="flex h-11 w-11 items-center justify-center rounded-lg bg-gray-800 ring-1 ring-paper">
             <Image
-              src="/Logo Acauã.svg"
+              src="/NovaLogo.svg"
               alt=""
               width={32}
               height={32}
