@@ -8,6 +8,9 @@
   --color-mute-light: #555;     /* texto secundário sobre branco */
   --font-body: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
   --radius-card: 12px;
+  --color-brand: #1c1ce0;
+  --color-brand-dark: #1414b8;
+  --color-brand-light: #4a4aff;
 }
 
 /* referencia a variável criada pelo next/font */
