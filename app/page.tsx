@@ -28,7 +28,6 @@ export default function Home() {
           alt="Tela inicial da loja TP"
           href="https://cardapio-do-dia-xi.vercel.app"
         />
-        <!-- <FrentesAtuacao/> -->
         <Faq />
       </main>
     </>
