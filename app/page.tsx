@@ -6,7 +6,7 @@ import BannerPalavras from "@/components/BannerPalavras";
 import Reveal from "@/components/Reveal";
 import { SolucaoDestaque } from "@/components/SolucaoDestaque";
 import { CtaBanner } from "@/components/CtaBanner";
-import { FrentesAtuacao } from "@/components/FrentesAtuacao";
+/*import { FrentesAtuacao } from "@/components/FrentesAtuacao";*/
 
 export default function Home() {
   return (
@@ -28,7 +28,7 @@ export default function Home() {
           alt="Tela inicial da loja TP"
           href="https://cardapio-do-dia-xi.vercel.app"
         />
-        <FrentesAtuacao/>
+        <!-- <FrentesAtuacao/> -->
         <Faq />
       </main>
     </>
