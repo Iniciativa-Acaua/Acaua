@@ -37,13 +37,14 @@ export function Hero() {
             id="hero-titulo"
             className="text-[clamp(2.25rem,6vw,4.5rem)]"
           >
-            Tecnologia, marketing &amp; segurança.
+            TECNOLOGIA QUE SIMPLIFICA. SOLUÇÕES QUE FAZEM SUA EMPRESA AVANÇAR.
           </h1>
 
           <p className="mt-6 max-w-[46ch] border-l-2 border-paper pl-4 text-lg text-paper/80">
-            Soluções integradas e orientadas a dados. Unimos engenharia
-            robusta, estratégias digitais de impacto e infraestrutura
-            resiliente.
+            Sua empresa não precisa de
+            sistemas caros e complicados para evoluir.
+            Precisa de soluções tec que resolvam problemas reais,
+            economizem tempo e facilite o dia a dia.
           </p>
 
           <div className="mt-8 flex flex-wrap gap-4">
@@ -51,7 +52,7 @@ export function Hero() {
               href="/portfolio"
               className={`${btn} bg-paper text-ink hover:bg-mute-dark rounded-2xl`}
             >
-              Conheça nossos projetos
+              CONHEÇA NOSSAS SOLUÇÕES
             </Link>
             <a
               href={WHATSAPP_URL}
